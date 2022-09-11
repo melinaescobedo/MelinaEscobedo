@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="aboutme.css">
+    </head>
+    <body>
+        <!-- NAVIGATION BAR -->
+        <div class="logo">
+            <a href="aboutme.html"><img src="logo.png"></a>
+        </div>
+
+        <div class="topnavbar" id="myTopnavbar">
+            <a href="uiwork.html">UI Work</a>
+            <a href="404.html">UX Work</a>
+            <a href="aboutme.html" class="active">About Me</a>
+            <a href="home.html">Home</a>
+
+            <!-- HAMBURGER MENU -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+            <!-- PARAGRAPHS -->
+        <div class="text">  
+
+            <h2>
+                The 
+                <span style="color:rgb(197, 74, 246);">ART</span>
+                of designing experiences.
+            </h2>
+            
+            <P class="P1">
+                I'm a Junior UX/UI Designer from Mexico &#8212; 
+                I create the interaction between humans and products, in order to make 
+                products functional, usable, accessible, and enjoyable to use for everyone.
+            </P>
+                
+            <P>
+                Design is for me an opportunity to always look for ways to improve the 
+                customer's experience. As a designer I understand that the perfect design 
+                doesn't only contains visual aesthetics, for me it's also all about 
+                championing the user.
+            </P>
+                
+            <P>
+                I have learned to apply human-centered and user-centered design methods as 
+                an emphasis to create value, as well as to always have empathy with the user. 
+                This means that the user needs are always my central focus on every project. 
+                I translate user needs into concepts, user flows, wireframes, mockups, 
+                prototypes and high-fidelity tests.
+            </P>
+
+            <!-- SOCIAL MEDIA BUTTONS -->
+            <a href="https://www.linkedin.com/in/melina-escobedo" target="_blank">
+                <button target="_blank">
+                    in
+                </button>
+            </a>
+
+        </div>
+
+        <img class="me" src="MelinaEscobedo.png">
+
+        <!-- FOOTER -->
+        <footer>
+            <p class="footer-name">Melina Escobedo</p>
+   
+            <p class="footer-text">
+                Junior UX/UI Designer
+                <br>
+                <br>
+                melinaescobedozarate@gmail.com
+                <br>
+                Connect on <a href="https://www.linkedin.com/in/melina-escobedo">LinkedIn</a>
+            </p>
+        </footer>
+
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnavbar");
+            if (x.className === "topnavbar") {
+                x.className += "responsive";
+            } else {
+              x.className = "topnavbar";
+            }
+        }
+        </script>
+            
+
+                
+    </body>
+
+
+</html>
+<!--https://www.freecodecamp.org/news/publish-your-website-netlify-github/-->

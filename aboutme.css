@@ -1,0 +1,147 @@
+.topnavbar {
+    overflow: hidden;
+    margin: 100px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+  
+.topnavbar a{
+    float: right;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+  
+.topnavbar a:hover{
+    background-color: rgb(239, 221, 246);
+    color: rgb(197, 74, 246);
+    transition: background-color 0.20s,
+    color 0.20s;
+}
+
+.topnavbar a.active{
+    background-color: rgb(239, 221, 246);
+    color: rgb(197, 74, 246);
+}
+
+.topnavbar .icon{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnavbar.responsive {position: relative;}
+    .topnavbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnavbar.responsive a {
+      float: none;
+      display: block;
+      text-align: right;
+    }
+}
+
+.logo img{
+    width: 50px;
+    margin: 100px;
+    position: absolute;
+    margin-top: 2px;
+}
+
+.logo img:hover{
+    width: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+h2 {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    font-size: 40px;
+    line-height: calc(1.4 * (1 + (1 - 2.8)/25));
+    letter-spacing: 1px;
+    margin: 100px;
+    margin-bottom: 32px;
+}
+
+
+.P1{
+    font-size: 28px;
+}
+
+P{
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-transform: none;
+    font-size: 20px;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 100px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.text{
+    width: 900px;
+    display: inline-block;
+}
+
+.me{
+    width: 600px;
+    margin-left: 50px;
+    vertical-align: top;
+    
+}
+
+button{
+    background-color: rgb(239, 221, 246);
+    color: rgb(197, 74, 246);
+    border: none;
+    height: 36px;
+    width: 36px;
+    border-radius: 20px;
+    margin: 100px;
+    margin-top: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.20s;
+    transition: background-color 0.20s,
+        color 0.20s;
+}
+
+button:hover{
+    background-color: rgb(197, 74, 246);
+    color: rgb(239, 221, 246);
+    opacity: 0.6;
+}
+
+footer{
+    padding: 100px;
+    background-color: rgb(239, 221, 246);
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.footer-name{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    float: left;
+    margin: 0px;
+}
+
+.footer-text{
+    font-size: 18px;
+    margin-left: 400px;
+}
