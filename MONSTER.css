@@ -116,6 +116,7 @@
   width: 80px;
   border-radius: 10px;
   background-color: #C9C0C0;
+  opacity: 0.80;
 }
 
 .square2{
@@ -123,7 +124,6 @@
   width: 80px;
   border-radius: 10px;
   background-color: #868484;
-  opacity: 0.23;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -140,6 +140,8 @@
     width: 80px;
     border-radius: 10px;
     background-color: #00EBFF;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .square5{
