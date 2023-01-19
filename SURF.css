@@ -87,21 +87,21 @@
 }
 
 .letters{
-  font-family: "Helvetica Neue";
+  font-family: Montserrat;
   font-size: 16px;
 }
 
 .numbers{
-  font-family: "Helvetica Neue";
+  font-family: Montserrat;
   font-size: 16px;
 }
 
 .bigL{
-  font-family: "Helvetica Neue";
+  font-family: Montserrat;
   font-size: 150px;
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #00EBFF;
+  color: #03928C;
 }
 
 .colornum{
@@ -115,40 +115,8 @@
   height: 80px;
   width: 80px;
   border-radius: 10px;
-  background-color: #C9C0C0;
-  opacity: 0.80;
-}
+  background-color: #FFFFFF;
 
-.square2{
-  height: 80px;
-  width: 80px;
-  border-radius: 10px;
-  background-color: #868484;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.square3{
-  height: 80px;
-  width: 80px;
-  border-radius: 10px;
-  background-color: black;
-}
-
-.square4{
-  height: 80px;
-  width: 80px;
-  border-radius: 10px;
-  background-color: #00EBFF;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.square5{
-    height: 80px;
-    width: 80px;
-    border-radius: 10px;
-    background-color: #1EF4D3;
 }
 
 .pe-7s-angle-right:before {
